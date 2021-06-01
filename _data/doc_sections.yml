@@ -1,0 +1,9 @@
+root_folder: /resources/
+sections:
+  - about
+  - dealing
+  - research
+  - experiences
+  - mindfulness
+  - faq
+  - community

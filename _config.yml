@@ -1,0 +1,46 @@
+title: RageQuit.tips
+baseurl: ''
+permalink: '/:title/'
+palette: red
+palettes:
+  blue:
+    sass:
+      accent1: '#00c6ff'
+      accent2: '#0072ff'
+  green:
+    sass:
+      accent1: '#12db5d'
+      accent2: '#11998e'
+  navy:
+    sass:
+      accent1: '#004e92'
+      accent2: '#000428'
+  red:
+    sass:
+      accent1: '#420C08'
+      accent2: '#D0302C'
+  violet:
+    sass:
+      accent1: '#8e2de2'
+      accent2: '#4a00e0'
+sass:
+  indentWidth: 4
+  precision: 10
+  style: nested
+plugins:
+  - jekyll-menus
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - ssg-build.sh
+  - LICENSE.md
+  - README.md
+  - netlify.toml
+  - stackbit-build.sh
+  - stackbit-pull.js
+url: ''
